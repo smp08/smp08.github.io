@@ -6,7 +6,11 @@ background-image: url(https://static.pexels.com/photos/7273/mountains-silhouette
 background-size: cover;
 }
 h1 {
+text-align: center;
 color: #F00;
 font-family: 'Lobster', cursive;
-font-size: 200%;
+font-size: 36px;
+}
+nav a{
+  color: #000000;
 }
