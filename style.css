@@ -56,3 +56,7 @@ section a {
 
   margin: -32px 0 0 -170px;
 }
+
+video {
+  width: 100%;
+}
