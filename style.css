@@ -26,3 +26,9 @@ section {
   width: 100%;
   text-align: center;
 }
+
+section a {
+ color: #FFF;
+ border: 1px solid #fff;
+ padding: 20px;
+}
