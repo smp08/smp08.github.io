@@ -31,4 +31,6 @@ section a {
  color: #FFF;
  border: 1px solid #fff;
  padding: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
 }
