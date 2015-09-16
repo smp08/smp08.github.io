@@ -1,110 +1,25 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
 <head>
-
-
-<link rel="apple-touch-icon" sizes="60x60" href="https://farm6.staticflickr.com/5709/20845419744_e869de3cd7_s.jpg">
-<link href="style.css" rel="stylesheet">
-<link href="lightbox.css" rel="stylesheet">
-<link rel="stylesheet" href="css/animsition.min.css">
-
-
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>Stefano Medina | Portfolio</title>
-
-
+  <link href='style.css' rel='stylesheet'
 </head>
 
 <body>
+  <nav>
+    <a href="index.html">Home</a>|<a href="about.html">About</a>|<a href="contact.html">Contact</a>|<a href="gallery.html">Gallery</a>|<a href="certificates.html">Certificates</a>|<a href="resume.html">Resume</a>
+  </nav>
+<center>
+  <h1>Hello, my name is Stefano Medina</h1>
+  <h2>An advertising student at the Miami International University of Art & Design, pursuing a career in account management. Feel free to navigate through my site to get a closer look at what I have worked on these past three years.</h2>
+</center>
 
-<div class="animsition">
-
-<header>
-
-<section id="logo">
-
-<a href="http://stefanomedina.me/index.html"><img src="https://farm6.staticflickr.com/5709/20845419744_e869de3cd7_s.jpg width="52" alt="logo"/></a>
-
-<br>Stefano Medina
-
+<section>
+  <a href="gallery.html">See my work</a>
 </section>
 
-<nav>
+</body>
 
-<a href="index.html">Home</a>|<a href="about.html">About</a>|<a href="contact.html">Contact</a>|<a href="portfolio.html">Portfolio</a>|<a href="certificates.html">Certificates</a>|<a href="resume.html">Resume</a>
-
-</nav>
-
-
-</header>
-
-<article>
-<section id="content1">
-
-<section id="bigtitle">
-
-Hello, my name is Stefano Medina
-
-</section>
-
-An advertising student at the Miami International University of Art & Design, pursuing a career in account management. Feel free to navigate through my site to get a closer look at what I have worked on these past three years.
-
-</section>
-
-<section id="content2">
-
-<a>&darr;</a> P O R T F O L I O <a>&darr;</a>
-
-</section>
-
-</article>
-
-
-<article>
-
-<section id="campaigns">
-
-<section id="title2">
-
-CAMPAIGNS
-
-</section>
-
-<br>
-
-<div class="gallery">
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/135676174@N08/21476572351/in/datetaken/" title="Portfolio 3 FINAL FINAL FINAL4"><img src="https://farm1.staticflickr.com/731/21476572351_40971903b6_s.jpg" width="300" alt="Portfolio 3 FINAL FINAL FINAL4"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/135676174@N08/21281083479/in/datetaken/" title="Portfolio 3 FINAL FINAL FINAL18"><img src="https://farm6.staticflickr.com/5682/21281083479_db81474a12_s.jpg" width="300" alt="Portfolio 3 FINAL FINAL FINAL18"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/135676174@N08/20845282714/in/datetaken/" title="Portfolio 3 FINAL FINAL FINAL30"><img src="https://farm6.staticflickr.com/5754/20845282714_1e7f40051c_s.jpg" width="300" alt="Portfolio 3 FINAL FINAL FINAL30"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</div>
-
-</section>
-
-</article>
-
-<section id="insta-title">
-
-INSTAGRAM
-  
-</section>
-
-<section id="insta-widget">
-
-<!-- SnapWidget -->
-<script src="http://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="http://snapwidget.com/in/?u=c3RlZmFub21lZGluYXxpbnwxMjV8M3wzfHxub3w1fGZhZGVJbnxvblN0YXJ0fG5vfHllcw==&ve=160915" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-
-  </section>
-  
 <footer>
 
 <hr>
@@ -124,40 +39,3 @@ INSTAGRAM
 </footer>
 
  </div>
-
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="js/lightbox.js"></script>
-<script src="js/jquery.animsition.min.js"></script>
-<script>
-$(document).ready(function() {
-  
-  $(".animsition").animsition({
-  
-    inClass               :   'fade-in',
-    outClass              :   'fade-out',
-    inDuration            :    1500,
-    outDuration           :    800,
-    linkElement           :   '.animsition-link',
-    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-    loading               :    true,
-    loadingParentElement  :   'body', //animsition wrapper element
-    loadingClass          :   'animsition-loading',
-    unSupportCss          : [ 'animation-duration',
-                              '-webkit-animation-duration',
-                              '-o-animation-duration'
-                            ],
-    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    
-    overlay               :   false,
-    
-    overlayClass          :   'animsition-overlay-slide',
-    overlayParentElement  :   'body'
-  });
-});
-  
-</script>
-
-</body>
-
-</html>
