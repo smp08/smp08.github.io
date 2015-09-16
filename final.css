@@ -31,11 +31,12 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: red;
+  color: #fff;
 }
 
 .learn-more {
   background-color: #f7f7f7;
+  color: red;
 }
 
 .learn-more h3 {
