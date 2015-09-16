@@ -72,7 +72,6 @@ iframe {
   display: block;
 }
 
-footer p,
-a, {
+footer p {
   alignment: center;
 }
