@@ -20,6 +20,16 @@ nav {
 }
 
 nav a{
+  color: #FFF;
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.64);
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+nav a{
   color: #000000;
   text-decoration: none;
 }
