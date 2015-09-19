@@ -12,6 +12,13 @@ color: #F00;
 font-family: 'Montserrat', sans-serif;
 font-size: 36px;
 }
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
 nav a{
   color: #000000;
   text-decoration: none;
